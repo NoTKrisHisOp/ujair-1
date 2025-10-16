@@ -1,0 +1,19 @@
+.btn {
+  @apply flex justify-center items-center font-semibold rounded-lg shadow-md transition-all duration-300 hover:scale-105 hover:shadow-xl;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.btn-primary {
+  @apply bg-indigo-600 text-white hover:bg-indigo-700;
+}
+
+.btn-secondary {
+  @apply border border-gray-300 text-gray-700 hover:bg-gray-50;
+}
+
+.btn-gradient {
+  @apply bg-gradient-to-r from-indigo-600 to-purple-600 text-white hover:from-indigo-700 hover:to-purple-700;
+}
